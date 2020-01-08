@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "House Scraper",
+  "author": "Peter L Gunter Jr, Un-Loop, Andrea Brice, Elle",
+  "version": "1.0",
+  "description": "Determine price and taxing of houses for better retirement options!!",
+  "icons": {
+    "16": "favicon.ico",
+    "48": "logo192.png",
+    "128": "logo512.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "browser_action": {
+    "default_icon" : "logo192.png",
+    "default_title": "House Scraper",
+    "default_popup": "index.html"
+  },
+  "permissions" : ["storage"]
+}
